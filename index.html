@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> form tab</title>
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main_container {
+        background-color: #eef9ff;
+    }
+
+    .main_container .sub_container h1 {
+        padding: 26px;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    .sub_container {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .text_box {
+        padding: 25px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .select_option {
+        width: 300px;
+    }
+
+    .text_box input {
+        height: 30px;
+        width: 300px;
+    }
+
+    .textarea {
+        width: 78%;
+        margin: 0 auto;
+    }
+
+    .textarea textarea {
+        height: 150px;
+        width: 1185px;
+    }
+
+    .button {
+        text-align: center;
+        padding: 35px;
+    }
+
+    .button button {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #0d3deead;
+        color: white;
+        font-weight: 700;
+    }
+</style>
+
+<body>
+
+    <section class="main_container">
+        <div class="sub_container">
+            <h1> Make an Appointment</h1>
+            <p> Magnam dolores commodi suscipit.Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                sit sint consectetur velit.Quisquam quos quisquam cupiditate.Et nemo qui impedit suscipit alias ea.
+                Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="text_box">
+            <input type="text" name="useename" placeholder="Your Name">
+            <input type="text" name="useename" placeholder="Your Email">
+            <input type="text" name="useename" placeholder="Your Phone">
+        </div>
+
+        <div class="text_box">
+            <input type="text" name="useename" placeholder="Appointment Date">
+            <select class="select_option">
+                <option value="useename" hidden>Select Department</option>
+                <option value="1">Dentist</option>
+                <option value="2">Neurology</option>
+                <option value="3">Gynecology</option>
+            </select>
+
+            <select class="select_option ">
+                <option value="dr" selected hidden> Select Doctor</option>
+                <optgroup label="Childer Specialist"> Select Doctor
+                    <option value="1">Eye Specialist</option>
+                    <option value="2">Mouth Specialist</option>
+                    <option value="3">Nose Specialist</option>
+                </optgroup>
+
+                <optgroup label="Gentral Check Up">Select Doctor
+                    <option value="1">Fever</option>
+                    <option value="2">Head ache</option>
+                    <option value="3">Body Pain </option>
+                </optgroup>
+            </select>
+
+        </div>
+
+        <div class="textarea">
+            <textarea placeholder="Message(Optional)"></textarea>
+        </div>
+        <div class="button">
+            <button type="button"> Make an Appointment</button>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
